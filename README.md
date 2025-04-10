@@ -107,7 +107,13 @@ O desenvolvimento desse site me trouxe grandes aprendizados que levarei pra vida
 
 ## Contribuindo
 
-Contribuições são sempre bem-vindas!
+Este é um projeto colaborativo, e toda contribuição é muito bem-vinda!
+seja para aprimorar o código, melhorar a documentação ou compartilhar novas ideias. Se quiser participar, aqui vai um passo a passo simples para começar:
 
+Faça um fork deste repositório.
+
+Crie uma nova branch com a sua proposta de mudança.
+
+Envie um pull request explicando claramente o que foi alterado e por quê
 
 
