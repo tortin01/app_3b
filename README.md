@@ -1,66 +1,115 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## SITE DE GERENCIAS CONTABEIS
+![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- ## linguagens utilizadas:
+- MySql
+- php
+- JavaScrip
+- html
+- css
+- Laravel
+- ## Instalação
+## Instalação do framework
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+1: curl -s "https://laravel.build/gestao?with=mysql&quot; | bash
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- ## Instalação do filament
+2: composer require filament/filament:"^3.2" -W
 
-## Learning Laravel
+3: php artisan filament:install --panels
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+4: php artisan migrate
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Gerar chave ssh
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+1. Para a criação de chaves ssh, deve-se utilizar o comando keygen
+link de apoio: https://git-scm.com/book/pt-br/v2/Git-no-servidor-Gerando-Sua-Chave-P%C3%BAblica-SSH
 
-## Laravel Sponsors
+2. Utilizar o comando cat, para visualizar a chave publica e adiciona-la no github
+ver link de apoio acima
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+3. Adicionar a chave ssh no github
+link de apoio: https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
-### Premium Partners
+4: Inicializar o git, dentro da pasta da aplicação
+comando: git init
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+5: adicionar os arquivos para serem rastreados pelo git
+comando git add .
 
-## Contributing
+6: Configurar o usuario do git
+git config --global user.email "you@example.com"
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+git config --global user.name "Your Name"
 
-## Code of Conduct
+7: Comitar os arquivos
+git commit -m "Commit Inicial"
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+8: Adicionar o repositorio remoto
+git remote <nome ssh do seu repositorio>
 
-## Security Vulnerabilities
+9: Enviar os arquivos ao github
+git push --set-upstream origin master
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Passo a Passo do Banco de dados
 
-## License
+https://chatgpt.com/share/67bf04ef-7064-800f-9968-492bcf850866
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Implementar o layout das telas de autenticação
+
+Use o site CodePen, utilize a linguagem html,css e JavaScript
+
+## Implementar a comunicação entre front-end e back-end do projeto
+
+Deverão construir o arquivo routes.php e os respectivos
+controllers para login, logout, registro de nova contas, atualização de
+senha
+
+
+Exemplo do Arquivo de Rotas
+https://chatgpt.com/canvas/shared/67e52f3dba948191977ad166d170ed62
+
+Comando para executar o caminho de rotas
+sudo ./vendor/bin/sail artisan install:api
+sudo ./vendor/bin/sail artisan make:controller AuthController
+
+
+
+
+- ## Funcionalidades
+
+- Painel Financeiro Personalizado
+Exibe gráficos e relatórios com dados como receitas, despesas, lucros e tributos em tempo real. Pode incluir filtros por período, categoria, ou cliente.
+
+- Emissão e Gestão de Notas Fiscais
+Permite gerar, armazenar e consultar notas fiscais eletrônicas (NF-e, NFS-e), com integração à Sefaz ou prefeitura local.
+
+- Envio e Armazenamento de Documentos
+Área para upload e organização de documentos como DARFs, contratos, recibos e comprovantes, com controle de versão e histórico.
+
+- Gestão de Obrigações Fiscais e Contábeis
+Alertas e acompanhamento de obrigações mensais, trimestrais e anuais (ex: DCTF, SPED, DIRF), com status de entrega e vencimentos.
+
+- Atendimento e Comunicação com o Contador
+Canal de suporte via chat, mensagens ou chamados para facilitar o contato com o escritório contábil, com histórico das conversas.
+
+
+- ## Aprendizados
+O desenvolvimento desse site me trouxe grandes aprendizados que levarei pra vida ,no começo nos não sabiamos nem como acessava um Terminal nem por onde eu começava diferentemente de hoje que nos sabemos por onde começar os passos que tenho que seguir e sem contar que foi uma experiencia muito legal e que ajudou a desenvolver o trabalho em grupo.
+
+- ## Autores
+
+- [@tortin01](https://www.github.com/octokatherine)
+- [@thaiss123](https://www.github.com/octokatherine)
+- [@](https://www.github.com/octokatherine)
+
+## Contribuindo
+
+Contribuições são sempre bem-vindas!
+
+Veja `contribuindo.md` para saber como começar.
+
+Por favor, siga o `código de conduta` desse projeto.
+
