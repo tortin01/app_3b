@@ -1,6 +1,6 @@
 
 ## SITE DE GERENCIAS CONTABEIS
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Logo](gerenciamento-de-documentos-contabeis.png)
 
 
 - ## linguagens utilizadas:
@@ -109,7 +109,5 @@ O desenvolvimento desse site me trouxe grandes aprendizados que levarei pra vida
 
 Contribuições são sempre bem-vindas!
 
-Veja `contribuindo.md` para saber como começar.
 
-Por favor, siga o `código de conduta` desse projeto.
 
