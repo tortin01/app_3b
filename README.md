@@ -103,7 +103,7 @@ O desenvolvimento desse site me trouxe grandes aprendizados que levarei pra vida
 
 - [@tortin01](https://www.github.com/octokatherine)
 - [@thaiss123](https://www.github.com/octokatherine)
-- [@](https://www.github.com/octokatherine)
+- [@karol7654](https://www.github.com/octokatherine)
 
 ## Contribuindo
 
